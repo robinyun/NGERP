@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>NG ERP</title>
+  </head>
+  <body>
+    <header>
+      <div class="headImg"></div>
+    </header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img class="logo" src="https://pbs.twimg.com/profile_images/619211160622080000/aHNPPA8z.jpg" alt="" /></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+    <!--         <li><a href="#">NGIDE</a></li> -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">MBE</a></li>
+                <li><a href="#">13b</a></li>
+                <li><a href="#">11r</a></li>
+                <li><a href="#">10r</a></li>
+                <li><a href="#">10g</a></li>
+                <li><a href="#">10b</a></li>
+
+                <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Dropdown header</li>
+
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+    <!--         <li><a href="#">Link</a></li> -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Post Go-Live Support<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Level 1,2,3 and 4 Contacts</a></li>
+                <li><a href="#">Access Request Form</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Level 1 Maps</li>
+                <li><a href="#">El Segundo-902</a></li>
+                <li><a href="#">El Segundo-905</a></li>
+
+                <li class="dropdown-header">Level 1&2 Map</li>
+                <li><a href="#">N. Dakota</a></li>
+                <li role="separator" class="divider"></li>
+
+                <li class="dropdown-header">BSO Ticketing System</li>
+                <li><a href="#">Create a BSO Ticket</a></li>
+                <li><a href="#">Backend System</a></li>
+
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Pocket Guides and Tip Sheets</li>
+                <li><a href="#">AMC MES Quick Start</a></li>
+                <li><a href="#">Goods Movement</a></li>
+                <li><a href="#">ME SFC</a></li>
+                <li><a href="#">ME</a></li>
+
+                 <li role="separator" class="divider"></li>
+                <li><a href="#">SAP Password Help</a></li>
+                <li><a href="#">SFC Online Help</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="mainContainer">
+      <div class="textContainer">
+        <h2 class="header"></h2>
+        <div id="imgDisplay" class="display"></div>
+        <div class="desc"></div>
+      </div>
+
+      <div class="barcontainer">
+        <input type="radio" class="radio" name="progress" value="zero" id="zero" checked>
+        <label for="zero" class="label">0%</label>
+
+        <input type="radio" class="radio" name="progress" value="five" id="five">
+        <label for="five" class="label">5%</label>
+
+        <input type="radio" class="radio" name="progress" value="twentyfive" id="twentyfive">
+        <label for="twentyfive" class="label">25%</label>
+
+        <input type="radio" class="radio" name="progress" value="fifty" id="fifty">
+        <label for="fifty" class="label">50%</label>
+
+        <input type="radio" class="radio" name="progress" value="seventyfive" id="seventyfive">
+        <label for="seventyfive" class="label">75%</label>
+
+        <input type="radio" class="radio" name="progress" value="onehundred" id="onehundred">
+        <label for="onehundred" class="label">100%</label>
+
+        <div class="progress">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="mid-section" class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="img/NGIDE_LOGO" alt="NGIDE">
+          <div class="caption text-center">
+            <h3>NGIDE</h3>
+            <p>What is NGIDE?</p>
+            <p><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#myModal" role="button">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">NGIDE</h4>
+            </div>
+            <div class="modal-body">
+              NGAS-Led Program Integrates Initiatives To Develop The NG Integrated Digital Enterprise under the Operation Excellence (OE) IPT.
+              <ul></ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="..." alt="...">
+          <div class="caption">
+            <h3>ERP</h3>
+            <p>What is ERP?</p>
+            <p><a href="#" class="btn btn-warning" role="button">Read More</a></p>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="..." alt="...">
+          <div class="caption">
+            <h3>ERP</h3>
+            <p>How will ERP benefit AS?</p>
+            <p><a href="#" class="btn btn-warning" role="button">Read more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
