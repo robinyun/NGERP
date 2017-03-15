@@ -139,3 +139,6 @@ input[type=checkbox], input[type=radio] {
 .textContainer {
   height: 240px;
   padding-top: 50px; }
+
+.thumbnail {
+  padding-top: 20px !important; }
